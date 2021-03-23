@@ -16,7 +16,7 @@
   height: 680px;
 }
 .singleImageWrapper {
-  transition: all 1s ease-in-out;
+  transition: all 0.7s ease-in-out;
   height: 600px;
   box-shadow: 0 0 10px 1px rgba(1, 1, 1, 0.1);
   width: 100px;
@@ -45,10 +45,10 @@
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.4);
   writing-mode: vertical-lr;
-  transition: background 1s ease-in-out;
+  transition: background 0.7s ease-in-out;
 }
 .imageInfoActive {
-  transition: background 1s ease-in-out;
+  transition: background 0.7s ease-in-out;
   background: rgba(255, 255, 255, 0.8);
   /* writing-mode: sideways-lr; */
   padding: 20px;
