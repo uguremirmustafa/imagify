@@ -19,7 +19,7 @@ export default function index() {
   return (
     <div className={cn.container}>
       <div className={cn.imageWrapper}>
-        {isLoading && <div>loading</div>}
+        {isLoading && <div className={cn.loader}>loading</div>}
         {data?.slice(0, 6).map((image) => (
           <div
             className={cn.singleImageWrapper}
